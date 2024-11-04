@@ -88,11 +88,11 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        // {
-        //   href: "https://github.com/Matthew-Oluwajuwon/vanilla-react-template",
-        //   label: "GitHub",
-        //   position: "right",
-        // },
+        {
+          href: "https://github.com/Matthew-Oluwajuwon/vanilla-react-template",
+          label: "GitHub",
+          position: "right",
+        },
       ],
     },
     footer: {
