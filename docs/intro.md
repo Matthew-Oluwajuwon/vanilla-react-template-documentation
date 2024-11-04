@@ -2,46 +2,66 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+A minimal and fast React template powered by Vite, designed to kickstart your React projects with sensible defaults.
+
+## Features
+
+- **Fast Development**: Utilizes Vite for rapid development and hot module replacement.
+- **Modern JavaScript**: Built with the latest features of JavaScript, including ES6+ syntax.
+- **Preconfigured**: Comes with a basic configuration out of the box to help you get started quickly.
+- **Lightweight**: Minimal dependencies to keep your project lightweight and performant.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+### Prerequisites
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Make sure you have the following installed:
 
-### What you'll need
+- **Node.js** (v18 or higher)
+- **npm** (comes with Node.js)
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Installation
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
+You can easily create a new project using this template with the following command:
 
 ```bash
-npm init docusaurus@latest my-website classic
+npx @matarazy28/create-react-starter@latest
+
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+During the installation, you'll be prompted to enter:
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- **App Name**: Enter your desired application name (default is my-app).
+- **Port Number**: Specify the port number on which you want to run your development server (default is 8001).
 
-## Start your site
 
-Run the development server:
+### Usage
 
 ```bash
-cd my-website
-npm run start
+cd your-app-name
+npm run dev
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+### Customization
+You can customize your template by modifying the following files:
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- **package.json**: Update project metadata, dependencies, and scripts.
+- **vite.config.ts**: Configure Vite options and server settings.
+- **src/**: This is where your application code resides. You can add components, styles, and assets here.
+
+### Contributing
+Contributions are welcome! If you have suggestions for improvements, please feel free to submit a pull request or open an issue.
+
+### Acknowledgments
+- **Vite** - The build tool that powers this template.
+- **React** - The library for building user interfaces.
+
+### Key Changes
+
+1. **Installation Section**: I've included details about the prompts for the app name and port number during the installation process.
+2. **Clear Instructions**: The instructions are clear, making it easy for users to understand what to expect when they run the installation command.
+
+Feel free to modify any additional sections to suit your project’s needs!

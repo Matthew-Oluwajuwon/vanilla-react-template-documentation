@@ -20,11 +20,7 @@ const sidebars: SidebarsConfig = {
   
   tutorialSidebar: [
     'intro',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
+    'Why Vanilla React Template',
   ],
    
 };
