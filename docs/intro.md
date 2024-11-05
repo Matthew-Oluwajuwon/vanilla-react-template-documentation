@@ -27,7 +27,7 @@ Make sure you have the following installed:
 You can easily create a new project using this template with the following command:
 
 ```bash
-npx @matarazy28/create-react-starter@latest
+npx @matarazy28/create-react-template@latest
 
 ```
 
